@@ -30,3 +30,27 @@ os.path.basename('c:\\folder1\\folder2\\spam.png')
 
 os.path.basename('c:\\folder1\\folder2')
 # returns folder2
+
+
+os.path.exists('c:\\folder1\\folder2\\spam.png')
+# returns false since there exists no such path
+
+os.path.isfile('c:\\folder1\\folder2\\spam.png')
+# true
+
+
+os.path.isfile('c:\\folder1\\folder2')
+# false
+
+
+os.path.isdir('c:\\windows\\system32\\calc.exe')
+# false
+
+os.path.isdir('c:\\windows\\system32')
+# true
+
+os.path.getsize('c:\\windows\\system32\\calc.exe')
+# returns 918528 type of number
+
+os.listdir('c:\\automatebook')
+# returns all files and folders names that are inside the dir name we passed
