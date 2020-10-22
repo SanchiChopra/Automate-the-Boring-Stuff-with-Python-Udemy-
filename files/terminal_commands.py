@@ -21,3 +21,12 @@ os.path.isabs('c:\\folder\\folder')
 os.path.relpath('a', 'b')  # gives relative path from path b to path a
 os.path.relpath('c:\\folder1\\folder2\\spam.png', 'c:\\folder1')
 # outputs: folder2\\spam.png
+
+os.path.dirname('c:\\folder1\\folder2\\spam.png')
+# returns - c:\\folder1\\folder2
+
+os.path.basename('c:\\folder1\\folder2\\spam.png')
+# outputs - spam.png, i.e., the part after the final \\
+
+os.path.basename('c:\\folder1\\folder2')
+# returns folder2
