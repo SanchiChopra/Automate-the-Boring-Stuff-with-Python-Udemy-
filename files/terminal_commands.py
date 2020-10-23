@@ -54,3 +54,6 @@ os.path.getsize('c:\\windows\\system32\\calc.exe')
 
 os.listdir('c:\\automatebook')
 # returns all files and folders names that are inside the dir name we passed
+
+os.makedirs('c:\\delicious\\waffles')
+# creates a folder delicious in the root folder and another folder waffles inside delicious
