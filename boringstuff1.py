@@ -22,5 +22,5 @@ print(spam)
 # print(spam)
 
 # print(cheese)
-print('I have gugu ' +
-      'ness')
+print('I have some free ' +
+      '-time now')
